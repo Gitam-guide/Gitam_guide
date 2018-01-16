@@ -1,0 +1,46 @@
+{
+  "id": "2ad92fca-ca65-47d7-88a6-04064005e935",
+  "timestamp": "2018-01-16T20:49:12.163Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "details of hod",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod": "hod"
+    },
+    "contexts": [
+      {
+        "name": "hod-followup",
+        "parameters": {
+          "hod.original": "hod",
+          "hod": "hod"
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "63db3be7-9e2a-4dc6-8281-17286cdf0dea",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "hod"
+    },
+    "fulfillment": {
+      "speech": "Please specify the department name.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please specify the department name."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "88909eae-5b36-4643-84ca-3ff1efdfa0bc"
+}
