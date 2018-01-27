@@ -1,0 +1,33 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "cse hod",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "CSE",
+      "hod": "hod"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "e9def4ca-1517-45a1-94b8-efb8ed45e0ff",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Cse_hod"
+    },
+    "fulfillment": {
+      "speech": "Mr.Phani Kumar",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Mr.Phani Kumar"
+        }
+      ]
+    },
+    "score": 1
+  },
+  
+  },
+ 
+}
