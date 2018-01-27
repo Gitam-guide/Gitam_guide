@@ -1,0 +1,41 @@
+{
+
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "cse faculty",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "CSE",
+      "faculty_count": "faculty"
+    },
+    "contexts": [
+      {
+        "name": "cse-faculty-followup",
+        "parameters": {
+          "faculty_count": "faculty",
+          "hod_department.original": "cse",
+          "hod_department": "CSE",
+          "faculty_count.original": "faculty"
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "c76b388d-e2b8-4ed4-ab30-3e1c6c726623",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "CSE-faculty"
+    },
+    "fulfillment": {
+      "speech": "There are 30 faculty members in CSE department. Do you want to know the faculty list.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There are 30 faculty members in CSE department. Do you want to know the faculty list."
+        }
+      ]
+    },
+    "score": 1
+  },
+}
