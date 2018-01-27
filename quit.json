@@ -1,0 +1,26 @@
+{
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "see you",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "65810666-7731-4769-89ec-5a5f0305f056",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Quit"
+    },
+    "fulfillment": {
+      "speech": "Bye, See ya!",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Have a great day!"
+        }
+      ]
+    },
+  },
+
+}

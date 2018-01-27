@@ -1,0 +1,27 @@
+{
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "visakhapatnam branch",
+    "action": "input.branch",
+    "actionIncomplete": false,
+    "parameters": {
+      "vis_branch": "Visakhapatnam"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "9a640658-72b6-41b5-a21c-95ca1527fc56",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "vis_branch"
+    },
+    "fulfillment": {
+      "speech": "It was established in 1980 at Visakhapatnam, it was affiliated to Andhra University.Its main campus at Visakhapatnam spreads over 100 acres.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It was established in 1980 at Visakhapatnam, it was affiliated to Andhra University.Its main campus at Visakhapatnam spreads over 100 acres."
+        }
+      ]
+    },
+  },
+}

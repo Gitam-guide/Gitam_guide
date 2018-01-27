@@ -1,0 +1,39 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "bangalore",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "ban_branch": "Bangalore"
+    },
+    "contexts": [
+      {
+        "name": "ban_branch-followup",
+        "parameters": {
+          "ban_branch": "Bangalore",
+          "ban_branch.original": "bangalore"
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "672e18d3-0a82-49a4-aa47-bfbf40a8422d",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "ban_branch"
+    },
+    "fulfillment": {
+      "speech": "GITAM Bengalore Campus was established in 2012, it consists of following schools: GITAM School of Technology Bengaluru School of Management Studies",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "GITAM Bengalore Campus was established in 2012, it consists of following schools:\n\nGITAM School of Technology\nBengaluru School of Management Studies"
+        }
+      ]
+    },
+ 
+  },
+  
+}

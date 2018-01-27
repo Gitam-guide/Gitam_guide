@@ -1,0 +1,27 @@
+{
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "hyderabad",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "Hyd_branch": "Hyderabad"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "3ce178f5-4dd2-4bdf-91db-875a346779c2",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Hyd_branch"
+    },
+    "fulfillment": {
+      "speech": "GITAM Hyderabad Campus was established in 2009, it consists of following schools: GITAM School of Technology Hyderabad Business School School of Science GITAM School of Pharmacy",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "GITAM Hyderabad Campus was established in 2009, it consists of following schools:\n\nGITAM School of Technology\nHyderabad Business School\nSchool of Science\nGITAM School of Pharmacy"
+        }
+      ]
+    },
+  },
+}

@@ -1,40 +1,40 @@
 {
-
+  
   "result": {
     "source": "agent",
-    "resolvedQuery": "cse faculty",
+    "resolvedQuery": "faculty count",
     "action": "",
     "actionIncomplete": false,
     "parameters": {
-      "hod_department": "CSE",
       "faculty_count": "faculty"
     },
     "contexts": [
       {
-        "name": "cse-faculty-followup",
+        "name": "ban_branch-followup",
         "parameters": {
           "faculty_count": "faculty",
-          "hod_department.original": "cse",
-          "hod_department": "CSE",
+          "ban_branch": "Bangalore",
+          "ban_branch.original": "bangalore",
           "faculty_count.original": "faculty"
         },
-        "lifespan": 2
+        "lifespan": 1
       }
     ],
     "metadata": {
-      "intentId": "c76b388d-e2b8-4ed4-ab30-3e1c6c726623",
+      "intentId": "b9723bf2-abb5-42d2-b124-1b1c462256be",
       "webhookUsed": "true",
       "webhookForSlotFillingUsed": "true",
-      "intentName": "CSE-faculty"
+      "intentName": "Faculty"
     },
     "fulfillment": {
-      "speech": "There are 30 faculty members in CSE department. Do you want to know the faculty list.",
+      "speech": "213 is the count of faculties in Gitam School of Technology.",
       "messages": [
         {
           "type": 0,
-          "speech": "There are 30 faculty members in CSE department. Do you want to know the faculty list."
+          "speech": "213 is the count of faculties in Gitam School of Technology."
         }
       ]
     },
   },
+
 }
