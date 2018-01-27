@@ -1,0 +1,29 @@
+{
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "who is the amc of cse b3",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "CSE",
+      "amc-cseb3": "amc"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "82f6158e-0b3a-47ef-b9a3-c8d71d09b781",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Amc"
+    },
+    "fulfillment": {
+      "speech": "Mrs. Aparna is the amc of cseb3.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Mrs. Aparna is the amc of cseb3."
+        }
+      ]
+    },
+  },
+
+}
