@@ -1,0 +1,39 @@
+{
+ 
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "departments in gitam",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "department_entry": "departments"
+    },
+    "contexts": [
+      {
+        "name": "departments-followup",
+        "parameters": {
+          "department_entry.original": "departments",
+          "department_entry": "departments"
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "9acf6421-ba8e-4d18-8137-c7e7e4c86826",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "departments"
+    },
+    "fulfillment": {
+      "speech": "There are totally 13 departments in Gitam School of Technology-Hyderabad campus, Here is the list of the departments currently in Gitam, Would you want to know them.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There are totally 13 departments in Gitam School of Technology-Hyderabad campus, Here is the list of the departments currently in Gitam, Would you want to know them."
+        }
+      ]
+    },
+   
+  },
+  
+}
