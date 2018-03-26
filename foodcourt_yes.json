@@ -1,0 +1,36 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "yes",
+    "action": "Foodcourts.Foodcourts-yes",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "foodcourts-followup",
+        "parameters": {
+          "Food_courts.original": "",
+          "Food_courts": ""
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "ba56d65f-a86e-4fc7-bdf8-2a42b20c84dc",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Food courts - yes"
+    },
+    "fulfillment": {
+      "speech": "SHS canteen-in front of J-Block entrance , Stilt canteen-below library, Bhimas canteen-below library, Subway- near students and Franky food court-between SHS & Bhimas",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "SHS canteen-in front of J-Block entrance  , Stilt canteen-below library, Bhimas canteen-below library, Subway- near students and Franky food court-between SHS & Bhimas"
+        }
+      ]
+    },
+  },
+  },
+}

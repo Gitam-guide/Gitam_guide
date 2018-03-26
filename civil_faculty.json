@@ -1,0 +1,32 @@
+{
+  "id": "76145ad0-d019-4bb2-8666-1f892498ae9d",
+  "timestamp": "2018-03-25T04:44:28.776Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "civil faculty list",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "CIVIL",
+      "list": "list"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "fb5d6b24-4b88-4e6e-adef-3db2ba0edd7d",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Civil faculty"
+    },
+    "fulfillment": {
+      "speech": "1.Dr.Pollayi Hemaraju Ph.D(IISC-Banglore)/ Civil Engineering 2.Mrs.G.Jyothi Kumari M.Tech(JNTU), (Ph.D)/ Structures 3.Ms.Arya Satheesh M.E.(AU-TN)/ Geo Technical Engineering 3.STR Chandra Sekhar B MTech, (PhD-IITM)/ Ocean Engineering 4.Mr.Mohd Arfath Khan M.Tech/ Structural Engineering 5.Mr.Pesapati Venkata Naga Gautham M.Tech (IIT H)/ Civil Engineering (Environmental and Water resources Engineering)",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "1.Dr.Pollayi Hemaraju\tPh.D(IISC-Banglore)/ Civil Engineering\n2.Mrs.G.Jyothi Kumari\tM.Tech(JNTU), (Ph.D)/ Structures\n3.Ms.Arya Satheesh\tM.E.(AU-TN)/ Geo Technical Engineering\n3.STR Chandra Sekhar B\tMTech, (PhD-IITM)/ Ocean Engineering\n4.Mr.Mohd Arfath Khan\tM.Tech/ Structural Engineering\n5.Mr.Pesapati Venkata Naga Gautham\tM.Tech (IIT H)/ Civil Engineering (Environmental and Water resources Engineering)"
+        }
+      ]
+    },
+  },
+},
+}

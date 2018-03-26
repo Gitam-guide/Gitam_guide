@@ -1,0 +1,28 @@
+{
+ 
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "it hod",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "IT",
+      "hod": "hod"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "6168866c-0e0b-43f3-b925-ed4439fd9687",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "It_hod"
+    },
+    "fulfillment": {
+      "speech": "Dr.M.Akkalakshmi M.Tech, Ph.D Designation: Professor & HOD",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Dr.M.Akkalakshmi M.Tech, Ph.D\nDesignation: Professor & HOD"
+        }
+      ]
+    },  },
+  },

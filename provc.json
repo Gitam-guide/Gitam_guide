@@ -1,0 +1,28 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Provc of gitam",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "ProVC": "provc"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "8aa144cc-f2b2-44ef-ae95-201484eee038",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "ProVC"
+    },
+    "fulfillment": {
+      "speech": "Prof.N.Siva Prasad M.Tech(Machine Dynamics and Tribology), Ph.D(Machine Design from I.I.T Madras/ Pro Vice Chancellor",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Prof.N.Siva Prasad\tM.Tech(Machine Dynamics and Tribology), Ph.D(Machine Design from I.I.T Madras/\tPro Vice Chancellor"
+        }
+      ]
+    },
+  },
+  }

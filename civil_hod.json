@@ -1,0 +1,30 @@
+{
+
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "who is the civil hod",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "CIVIL",
+      "hod": "hod"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "a7ac7210-e0ca-404e-9a44-5410260201f1",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Civil_hod"
+    },
+    "fulfillment": {
+      "speech": "Dr.Bellam Sivarama Krishna Prasad B.Sc(Engg) Civil(NIT, Kurukshetra), M.E. (Structural Engineering-Gulbarga University), Ph.D(Structural Engineering-JNTUH) Designation: Professor & HOD",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Dr.Bellam Sivarama Krishna Prasad B.Sc(Engg) Civil(NIT, Kurukshetra), M.E. (Structural Engineering-Gulbarga University), Ph.D(Structural Engineering-JNTUH)\nDesignation: Professor & HOD"
+        }
+      ]
+    },
+  },
+  },
+}

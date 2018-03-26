@@ -1,0 +1,43 @@
+{
+ 
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "mech faculty list",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "MECH",
+      "list": "list"
+    },
+    "contexts": [
+      {
+        "name": "cse-faculty-followup",
+        "parameters": {
+          "list.original": "list",
+          "faculty_count": "",
+          "hod_department.original": "mech",
+          "list": "list",
+          "hod_department": "MECH",
+          "faculty_count.original": ""
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "28fca491-012f-4617-a624-bcce83680152",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Mech faculty"
+    },
+    "fulfillment": {
+      "speech": "J-317 1. Mr.A.Kiran Kumar M.Tech(JNTUK), (Phd-S V University)/ CAD/CAM 2. Mr.N.Sunil M.Tech(NIT W)/ Computer Integrated Manufacturing 3. Mr.K.Obula Reddy M.Tech(NIT Silchar), (Ph.D - NIT Silchar)/ Thermal Engineering 4. Mr.Jagadeshwar Kandula M.Tech(IITM)/ Thermal Engineering 5. Mr.M.Jayakrishna M.Tech(IIT M), MS/ Design 6. Mr.Ravi H M.Tech(NIT ALLAHABAD)/ Design 7. Jeevan Vemula 8. Jaya Krishna 9. N.V.S.S Sagar Mr.A.Sridhar M.Tech(NIT W), (Ph.D)/ Manufacturing Engineering Mrs.K.Malleswari M.Tech(NIT-Trichy)/ Industrial Engineering Mr.Rafiuzzama Shaik M.S, (Ph.D)/ Advanced Manufacturing Technology B.Naresh Mr.P.Ravichandra M.S, (Ph.D-IITM)/ Fluids/Thermal Mr.Gaddam Bhaskar Rao M.Tech(NIT W)/ CIM Mr.Santhosh Kumar Gugulothu M.Tech, (Ph.D) / Thermal Engineering Mr.V.Naveen Kumar M.Tech(NIT C)/ Materials Science and Engineering Mr.M.Siva Surya M.Tech(NITW), (Phd -JNTUA)/ Manufacturing Engineering Mr.V.Kameswara Sridhar M.Tech, M.Sc(Germany)/ Mathematical Modelling Mr.Anil Kumar Reddy Padidam M.Tech(IIT-D)/ Thermal Engineering Mr.G.Sandeep Reddy M.Tech(NIT W)/ Materials Technology",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "J-317                                                                                                                                           \n1.\tMr.A.Kiran Kumar\tM.Tech(JNTUK), (Phd-S V University)/ CAD/CAM\n2.\tMr.N.Sunil\tM.Tech(NIT W)/ Computer Integrated Manufacturing\n3.\tMr.K.Obula Reddy\tM.Tech(NIT Silchar), (Ph.D - NIT Silchar)/ Thermal Engineering\n4.\tMr.Jagadeshwar Kandula\tM.Tech(IITM)/ Thermal Engineering\n5.\tMr.M.Jayakrishna\tM.Tech(IIT M), MS/ Design\n6.\tMr.Ravi H\tM.Tech(NIT ALLAHABAD)/ Design\n7.\tJeevan Vemula\n8.\tJaya Krishna\n9.\tN.V.S.S Sagar                                                                                                 \n Mr.A.Sridhar\tM.Tech(NIT W), (Ph.D)/ Manufacturing Engineering\nMrs.K.Malleswari\tM.Tech(NIT-Trichy)/ Industrial Engineering\nMr.Rafiuzzama Shaik\tM.S, (Ph.D)/ Advanced Manufacturing Technology\nB.Naresh\nMr.P.Ravichandra\tM.S, (Ph.D-IITM)/ Fluids/Thermal\nMr.Gaddam Bhaskar Rao\tM.Tech(NIT W)/ CIM\nMr.Santhosh Kumar Gugulothu\tM.Tech, (Ph.D) / Thermal Engineering\nMr.V.Naveen Kumar\tM.Tech(NIT C)/ Materials Science and Engineering\nMr.M.Siva Surya\tM.Tech(NITW), (Phd -JNTUA)/ Manufacturing Engineering\nMr.V.Kameswara Sridhar\tM.Tech, M.Sc(Germany)/ Mathematical Modelling\nMr.Anil Kumar Reddy Padidam\tM.Tech(IIT-D)/ Thermal Engineering\nMr.G.Sandeep Reddy\tM.Tech(NIT W)/ Materials Technology"
+        }
+      ]
+    },
+   },
+  },
+ }

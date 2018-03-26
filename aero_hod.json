@@ -1,0 +1,30 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "aero hod",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "hod_department": "AERO",
+      "hod": "hod"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "45225ed0-4b32-4ddb-9aa4-b2533035dba7",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Aero_hod"
+    },
+    "fulfillment": {
+      "speech": "Dr.N.V.Swamy Naidu M.E., Ph.D(IIT-KGP) Designation: Professor & HOD",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Dr.N.V.Swamy Naidu M.E., Ph.D(IIT-KGP)\nDesignation: Professor & HOD"
+        }
+      ]
+    },
+  },
+  },
+}

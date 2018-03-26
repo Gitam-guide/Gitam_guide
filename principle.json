@@ -1,0 +1,28 @@
+{
+  
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "who is Mr Ch. Sanjay",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "principle": "Sanjay"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "c9a027d7-fc66-407b-9190-f2da373eee51",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "true",
+      "intentName": "Principle"
+    },
+    "fulfillment": {
+      "speech": "Prof.Ch.Sanjay ME(CAD/CAM), MBA, Ph.D(PE)/ CAD/CAM & Automation, Manufacturing Engineering, Machining, Composites, Artificial Intelligence Systems, Expert Systems, Industrial Management, HRD, Supply Chain Management Principal",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Prof.Ch.Sanjay\tME(CAD/CAM), MBA, Ph.D(PE)/ CAD/CAM & Automation, Manufacturing Engineering, Machining, Composites, Artificial Intelligence Systems, Expert Systems, Industrial Management, HRD, Supply Chain Management\tPrincipal"
+        }
+      ]
+    },
+  },
+  }
